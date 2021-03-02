@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --background-color: #F0F0F7;
+    --primary-color: #0a369d;
+    --primary-color-light: #1452e4;
+    --secundary-color: #CFDEE7;
+    --color-text-base: #6A6180;
+    --input-background-color: #e3e3e4;
+    --color-line-in-white: #E6E6F0;
+    --green-color: #04D361;
+    --green-dark-color: #04BF58;
+    --button-font-color: #FFFFFF;
+
+    --title-primary-font: 'Fredoka One';
+    --title-secundary-font: 'Rozha One';
+    --button-font: 'Archivo';
+    --featured-text-font: 'Source Sans Pro';
+
+
+    font-size: 60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+body {
+    background: var(--color-background);
+}
+
+body, input, button, textarea {
+    font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
+}
+
+input, textarea {
+    border-radius: 0.8rem;
+    background: var(--input-background-color);
+    border: 1px solid var(--color-line-in-white);
+    outline: 0;
+    padding: 0 1.6rem;
+    font: 1.6rem Archivo;
+}
+
+.container {
+    width: 90vw;
+    max-width: 700px;
+}
