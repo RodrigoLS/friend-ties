@@ -9,6 +9,7 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PostComponent } from './components/post/post.component';
 import { SendPostComponent } from './components/send-post/send-post.component';
+import { CommentComponent } from './components/comment/comment.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SendPostComponent } from './components/send-post/send-post.component';
     ProfileComponent,
     NavbarComponent,
     PostComponent,
-    SendPostComponent
+    SendPostComponent,
+    CommentComponent
   ],
   imports: [
     BrowserModule,
