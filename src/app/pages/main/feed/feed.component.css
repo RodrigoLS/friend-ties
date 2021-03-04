@@ -1,0 +1,27 @@
+#feed-container {
+    margin-top: 10rem;
+}
+
+#feed-container hr {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#feed-container .send-post-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#feed-container .post-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 5rem auto;
+}
+
+@media (max-width: 600px) {
+    #feed-container .send-post-container, 
+    #feed-container .post-container {
+        width: 95vw;
+    }
+}

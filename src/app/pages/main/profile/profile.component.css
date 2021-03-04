@@ -7,7 +7,7 @@
     height: 30rem;
     background: transparent no-repeat center;
     background-size: cover;
-    background-image: url('../../../assets/img/nature-design.jpg');
+    background-image: url('../../../../assets/img/nature-design.jpg');
 }
 
 .profile-header-container #profile-img {

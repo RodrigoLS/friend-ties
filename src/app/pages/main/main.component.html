@@ -1,20 +1,22 @@
 <div class="container-nav">
     <nav id="menu-navbar">
         <a [routerLink]="['/dashboard/profile', '123456789']" routerLinkActive="router-link-active" 
-        [routerLinkActiveOptions]="{ exact: true }">
+            [routerLinkActiveOptions]="{ exact: true }">
             <span class="material-icons">person</span>
         </a>
 
         <a [routerLink]="['/dashboard']" routerLinkActive="router-link-active" 
-        [routerLinkActiveOptions]="{ exact: true }">
+            [routerLinkActiveOptions]="{ exact: true }">
             <span class="material-icons">list_alt</span>
         </a>
 
-        <a>
+        <a [routerLink]="['/dashboard/friends']" routerLinkActive="router-link-active" 
+            [routerLinkActiveOptions]="{ exact: true }">
             <span class="material-icons">people_alt</span>
         </a>
 
-        <a>
+        <a [routerLink]="['/dashboard/search']" routerLinkActive="router-link-active" 
+            [routerLinkActiveOptions]="{ exact: true }">
             <span class="material-icons">search</span>
         </a>
 
@@ -22,4 +24,8 @@
             <span class="material-icons">exit_to_app</span>
         </a>
     </nav>
+</div>
+
+<div class="content-dashboard">
+    <router-outlet></router-outlet>
 </div>

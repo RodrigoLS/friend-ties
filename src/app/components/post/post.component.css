@@ -2,8 +2,10 @@
     width: 100%;
     padding: 3.5rem;
     border-radius: 20px;
+    margin-bottom: 3rem;
 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
 
@@ -31,6 +33,9 @@
     font-family: var(--featured-text-font);
 }
 
+.card .body p {
+    margin-bottom: 1rem;
+}
 .card .body img {
     width: 100%;
 }
@@ -50,5 +55,19 @@
     margin-left: 0.3rem;
 }
 
+.card .comments-container {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
 
+.card .comments-container textarea {
+    margin-bottom: 2rem;
+}
 
+.card .comments-container span {
+    margin: 1rem 0;
+    text-align: center;
+    color: var(--primary-color);
+    font-family: var(--title-primary-font);
+}

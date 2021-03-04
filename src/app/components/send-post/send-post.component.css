@@ -18,11 +18,6 @@
 .card textarea {
     width: 100%;
     height: 6rem;
-    resize: vertical;
-}
-
-.card textarea::-webkit-input-placeholder {
-    padding-top: 1rem;
 }
 
 .card hr {

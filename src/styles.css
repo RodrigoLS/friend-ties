@@ -49,6 +49,14 @@ input, textarea {
     font: 1.6rem Archivo;
 }
 
+textarea {
+    resize: vertical;
+}
+
+textarea::-webkit-input-placeholder {
+    padding-top: 1rem;
+}
+
 .container {
     width: 90vw;
     max-width: 700px;

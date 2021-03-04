@@ -22,14 +22,15 @@
     justify-content: center;
     align-items: center;
     color: var(--button-font-color);
+    text-decoration: none;
 }
-
-/* .container-nav #menu-navbar a .router-link-active {
-    background-color: 
-} */
 
 .container-nav #menu-navbar a:hover,
 .container-nav #menu-navbar a .router-link-active,
 .container-nav #menu-navbar a .router-link-active:focus {
     background-color: var(--primary-color-light) !important;
+}
+
+.content-dashboard {
+    margin-top: 7rem;
 }
