@@ -3,34 +3,6 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-.slogan {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--primary-color);
-    width: 50vw;
-    height: 100vh;
-}
-
-.slogan .container-ilustration {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.slogan .container-ilustration .ilustration-img {
-    width: 80%;
-    height: auto;
-}
-
-.slogan .text-slogan {
-    font-family: var(--title-primary-font);
-    font-size: 4rem;
-    text-align: center; 
-    color: var(--secundary-color);
-}
-
 .form-content {
     width: 50vw;
     height: 100vh;
@@ -107,9 +79,5 @@
 @media (max-width: 700px) {
     .slogan {
         display: none;
-    }
-
-    .form-content {
-        width: 100vw;
     }
 }

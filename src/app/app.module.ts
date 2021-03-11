@@ -14,6 +14,11 @@ import { MainComponent } from './pages/main/main.component';
 import { FeedComponent } from './pages/main/feed/feed.component';
 import { FriendsComponent } from './pages/main/friends/friends.component';
 import { SearchComponent } from './pages/main/search/search.component';
+import { CardUserComponent } from './components/card-user/card-user.component';
+import { RequestCardComponent } from './components/request-card/request-card.component';
+import { SloganMainComponent } from './components/slogan-main/slogan-main.component';
+import { ViewProfileComponent } from './pages/main/view-profile/view-profile.component';
+import { EditProfileComponent } from './pages/main/edit-profile/edit-profile.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,12 @@ import { SearchComponent } from './pages/main/search/search.component';
     MainComponent,
     FeedComponent,
     FriendsComponent,
-    SearchComponent
+    SearchComponent,
+    CardUserComponent,
+    RequestCardComponent,
+    SloganMainComponent,
+    ViewProfileComponent,
+    EditProfileComponent,
   ],
   imports: [
     BrowserModule,

@@ -42,6 +42,7 @@
 
 .card .footer {
     display: flex;
+    margin-top: 0.6rem;
 }
 
 .card .footer .btn-like {

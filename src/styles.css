@@ -10,6 +10,10 @@
     --color-line-in-white: #E6E6F0;
     --green-color: #04D361;
     --green-dark-color: #04BF58;
+    --red-color: #aa0b0b;
+    --red-color-light: #ff0000;
+    --grey-color: #6A6180;
+    --grey-color-light: #787385;
     --button-font-color: #FFFFFF;
 
     --title-primary-font: 'Fredoka One';
@@ -49,6 +53,10 @@ input, textarea {
     font: 1.6rem Archivo;
 }
 
+input {
+    height: 5.6rem;
+}
+
 textarea {
     resize: vertical;
 }
@@ -60,4 +68,12 @@ textarea::-webkit-input-placeholder {
 .container {
     width: 90vw;
     max-width: 700px;
+}
+
+.btn {
+    color: var(--button-font-color) !important;
+    font-family: var(--button-font);
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    border-radius: 20px;
 }

@@ -1,0 +1,17 @@
+#friends-and-requests {
+    margin-top: 10rem;
+}
+
+.container .nav-item .nav-link {
+    font: var(--title-secundary-font) !important;
+    font-size: 15rem;
+}
+
+.container .tab-content {
+    margin-top: 2rem;
+}
+
+.container .tab-content #search {
+    width: 100%;
+    margin-bottom: 2rem;
+}
