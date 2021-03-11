@@ -1,3 +1,53 @@
-#edit-profile .container .card { 
+#edit-profile {
+    margin-bottom: 5rem !important;
+}
+
+.card { 
+    margin-top: 10rem !important;
+    margin-bottom: 0;
     padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card:last-child {
+    margin-top: 5rem !important;
+}
+
+.card .form-label h2 {
+    font-family: var(--title-primary-font);
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+}
+
+.card .form-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.card .btn-container {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card label {
+    margin-left: 0.3rem;
+}
+
+.card input {
+    height: 4.5rem;
+    width: 100%;
+}
+
+.card:last-child .field + .field {
+    margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    .card .form-content {
+        grid-template-columns: 1fr;
+    }
 }

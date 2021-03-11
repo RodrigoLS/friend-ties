@@ -2,7 +2,63 @@
     <div class="container">
         <div class="card">
             <form>
-                <input type="text" name="name" id="name" class="form-control">
+                <div class="form-label">
+                    <h2>Editar informações</h2>
+                </div>
+
+                <div class="form-content">
+                    <div class="field">
+                        <label for="name">Nome</label><br>
+                        <input type="text" name="name" id="name" placeholder="Nome">
+                    </div>
+
+                    <div class="field">
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="field">
+                        <label for="city">Cidade</label><br>
+                        <input type="text" name="city" id="city" placeholder="Ex: São Paulo">
+                    </div>
+
+                    <div class="field">
+                        <label for="date">Data de nascimento</label><br>
+                        <input type="date" name="date" id="date" placeholder="Data de nascimento">
+                    </div>
+                </div>
+
+                <div class="btn-container">
+                    <button type="submit" class="btn add-btn">Alterar</button>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="card">
+            <form>
+                <div class="form-label">
+                    <h2>Editar Senha</h2>
+                </div>
+
+                <div class="field">
+                    <label for="password">Senha atual</label><br>
+                    <input type="password" name="password" id="password" placeholder="Insira a senha atual">
+                </div>
+
+                <div class="field">
+                    <label for="newPassword">Nova senha</label><br>
+                    <input type="password" name="newPassword" id="newPassword" placeholder="Insira a nova senha">
+                </div>
+
+                <div class="field">
+                    <label for="newPasswordConfirm">Confirme a nova senha</label><br>
+                    <input type="password" name="newPasswordConfirm" id="newPasswordConfirm" placeholder="Insira a nova senha novamente">
+                </div>
+
+                <div class="btn-container">
+                    <button type="submit" class="btn add-btn">Alterar</button>
+                </div>
             </form>
         </div>
     </div>

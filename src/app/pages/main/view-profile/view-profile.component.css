@@ -31,30 +31,6 @@
     color: var(--primary-color);
 }
 
-.profile-header-container .user-name-content .add-btn {
-    background-color: var(--primary-color);
-}
-
-.profile-header-container .user-name-content .add-btn:hover {
-    background-color: var(--primary-color-light);
-}
-
-.profile-header-container .user-name-content .remove-btn {
-    background-color: var(--red-color);
-}
-
-.profile-header-container .user-name-content .remove-btn:hover {
-    background-color: var(--red-color-light);
-}
-
-.profile-header-container .user-name-content .cancel-btn {
-    background-color: var(--grey-color);
-}
-
-.profile-header-container .user-name-content .cancel-btn:hover {
-    background-color: var(--grey-color-light);
-}
-
 .profile-header-container .user-info-content {
     width: 30vw;
     margin: 0 2rem 0 20rem;
